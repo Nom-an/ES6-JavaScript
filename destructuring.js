@@ -9,3 +9,9 @@ const device = {phone: 'samsung', pp: 14000}
 
 console.log(phone , pp,tt);
 
+// destructuring on array
+
+const number = [123,53,23,13,54];
+const [first,second] = number;
+
+console.log(first,second);
