@@ -16,3 +16,11 @@ const numberIndex = number.map((numm,index)=>{
 })
 
 console.log(numberIndex);
+
+
+const point = [9,8,7,6,5,4,3,21];
+
+const pointTripple = (p)=> p*3;
+
+const tripple = point.map(pointTripple);
+console.log(tripple);
