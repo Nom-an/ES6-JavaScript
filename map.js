@@ -24,3 +24,8 @@ const pointTriple = (p)=> p*3;
 
 const triple = point.map(pointTriple);
 console.log(triple);
+
+const doctor = ['milon' , 'subash'];
+
+const doctorLenght = doctor.map((st)=>st.length);
+console.log(doctorLenght);
