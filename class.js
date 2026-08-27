@@ -1,10 +1,18 @@
 class Player{
-    goal (){
-        console.log('goal count 1');
+
+    constructor( name , id , section){
+        this.name = name;
+        this.id = id;
+        this.section = section;
+         console.log('goal ', id);
+
     }
+
+
 
 }
 
-const player = new Player();
+const player = new Player('Ashraful' , 12, 'B');
 
-player.goal();
+console.log(player);
+
